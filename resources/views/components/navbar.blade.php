@@ -14,7 +14,7 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <x-nav-link href="/" :is_active="request()->is('/')">Home</x-nav-link>
-                        <x-nav-link href="/blog" :is_active="request()->is('blog')">Blog</x-nav-link>
+                        <x-nav-link href="/posts" :is_active="request()->is('posts')">Blog</x-nav-link>
                         <x-nav-link href="/about" :is_active="request()->is('about')">About</x-nav-link>
                         <x-nav-link href="/contact" :is_active="request()->is('contact')">Contact</x-nav-link>
                     </div>
@@ -78,7 +78,7 @@
         style="display: none;">
         <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
             <x-nav-link class="block" href="/" :is_active="request()->is('/')">Home</x-nav-link>
-            <x-nav-link class="block" href="/blog" :is_active="request()->is('blog')">Blog</x-nav-link>
+            <x-nav-link class="block" href="/posts" :is_active="request()->is('posts')">Blog</x-nav-link>
             <x-nav-link class="block" href="/about" :is_active="request()->is('about')">About</x-nav-link>
             <x-nav-link class="block" href="/contact" :is_active="request()->is('contact')">Contact</x-nav-link>
         </div>
